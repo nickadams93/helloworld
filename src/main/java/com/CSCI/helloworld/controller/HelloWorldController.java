@@ -18,4 +18,9 @@ public class HelloWorldController {
 	public String nickHello() {
 		return "Hello World from Nick!";
 	}
+	
+	@RequestMapping("/trey")
+	public String treyHello() {
+		return "Hello World from Trey!";
+	}
 }
